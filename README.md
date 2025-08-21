@@ -15,23 +15,8 @@ git clone https://github.com/AJ-ajay-AY/setup.git && cd setup/macBook_setup && c
 
 # Repo Structure and Explanation
 
-mac-setup/
-├── setup.sh                 # MODIFIED - The main script you'll run
-|
-├── modules/
-│   ├── 1_homebrew.sh        # MODIFIED - Oh My Zsh install removed
-│   ├── 2_applications.sh    # No changes
-│   ├── 3_languages.sh       # No changes
-│   ├── 4_ssh.sh             # No changes
-│   ├── 5_zsh_config.sh      # NEW - Installs Oh My Zsh, theme, and plugins
-│   └── 6_dotfiles.sh        # RENAMED from 5_dotfiles.sh
-|
-├── config/
-│   ├── zshrc                # MODIFIED - Theme and plugins added
-│   ├── bashrc               # No changes
-│   └── hosts_additions      # No changes
-|
-└── README.md                # MODIFIED - Reference link added
+<img width="615" height="350" alt="Screenshot 2025-08-21 at 12 49 08 PM" src="https://github.com/user-attachments/assets/39cc99f7-9628-4867-8fce-daf69fa38f7f" />
+
 
 
 # 💻 My macOS Setup Script
