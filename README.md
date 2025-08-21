@@ -7,6 +7,12 @@ This project provides a modular script to fully automate the setup of a develope
 
 # Installation
 
+Quick start - No Git needed
+```shell
+curl -Lo setup.zip https://github.com/AJ-ajay-AY/setup/archive/refs/heads/master.zip && unzip -q setup.zip && cd setup-master && chmod +x setup.sh && ./setup.sh
+
+```
+Using Git
 ```shell
 git clone https://github.com/AJ-ajay-AY/setup.git && cd setup && chmod +x setup.sh && ./setup.sh
 ```
