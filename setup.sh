@@ -10,12 +10,12 @@ echo "A detailed log will be saved to: $LOG_FILE"
 echo "----------------------------------------------------------------"
 
 # Run each module script in order
-source "$DOTFILES_DIR/modules/1_homebrew.sh"
-source "$DOTFILES_DIR/modules/2_applications.sh"
-source "$DOTFILES_DIR/modules/3_languages.sh"
-source "$DOTFILES_DIR/modules/4_ssh.sh"
-source "$DOTFILES_DIR/modules/5_zsh_config.sh" # New module for Zsh
-source "$DOTFILES_DIR/modules/6_dotfiles.sh"   # Links the configured zshrc
+source "$DOTFILES_DIR/macbook_setup/modules/1_homebrew.sh"
+source "$DOTFILES_DIR/macbook_setup/modules/2_applications.sh"
+source "$DOTFILES_DIR/macbook_setup/modules/3_languages.sh"
+source "$DOTFILES_DIR/macbook_setup/modules/4_ssh.sh"
+source "$DOTFILES_DIR/macbook_setup/modules/5_zsh_config.sh" # New module for Zsh
+source "$DOTFILES_DIR/macbook_setup/modules/6_dotfiles.sh"   # Links the configured zshrc
 
 echo "----------------------------------------------------------------"
 echo "✅ All setup modules have been executed."
